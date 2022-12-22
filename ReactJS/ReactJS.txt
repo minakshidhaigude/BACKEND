@@ -1,0 +1,39 @@
+React JS with TypeScript -- eg used by f/b
+ React JS is a library for creating SPA(Single Page Application)-->
+ No unwanted page refresh
+
+In react component-
+       a.Template(View) 
+       b.Behavior/logic 
+       all these written in TS files
+JSX(JavaScript and XML)
+
+Creating a react JS app-->
+create-react-app  
+1.
+ npm install -g create-react-app  
+  npx create-react-app <<app name>> --template typescript
+  npx create-react-app react-training-aug-2022 --template typescript
+
+npm run start
+
+public folder not converted into JS
+npm install --save bootstrap go to index.css and
+ @import '../node_modules/bootstrap/dist/css/bootstrap.css'
+
+10/08/2022
+props(properties) way to pass data to fun or similar to fun params passing props to fun
+parent -child commn
+
+<React.Fragment></React.Fragment>
+stateful - when the state of component changes react will rerendered section of those not
+            rerendered the entire dom
+stateless - static text ,user not interact with this state
+
+12/08/2022
+Content Projection -->
+way of injecting one cmp to another cmp
+Stateful components--
+
+13/08/2022
+component life cycle
